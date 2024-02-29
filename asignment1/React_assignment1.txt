@@ -1,0 +1,29 @@
+Key::
+-----
+
+Key is the attribute used while dealing with the arrays , which helps the react understand the stable identity of the object.
+
+when there is any change like update,delete react will easily understand the modified object.
+
+Key must be unique value and not to be index.
+
+
+
+Display images in react:::
+--------------------------
+
+using path:
+
+<img src='../../public/imagename.png' />
+
+using import:
+
+import logo from '../../public/imageName.png;
+
+<img src={logo} />
+
+using css 
+
+.className{
+background:url('../../public/imageName.png')
+}
